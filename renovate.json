@@ -1,5 +1,10 @@
 {
   "extends": [
     "config:base"
-  ]
+  ],
+  "packageRules": [{
+    "matchManagers": ["gomod"],
+    "matchUpdateTypes": ["indirect"],
+    "enabled": true
+  }]
 }
